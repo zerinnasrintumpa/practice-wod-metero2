@@ -51,6 +51,9 @@ const NavBar = () => {
                   Sign
                   out
                 </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/profile">
+                  Profile
+                </NavDropdown.Item>
               </NavDropdown>
             )}
           </Nav>

@@ -12,6 +12,11 @@
  */
 body {
   --bs-light-rgb: var(--matr-navbar-bg-rgb);
+  --bs-card-subtitle-color: #999999;
+}
+
+.card-subtitle{
+  color: #999999 !important;
 }
 
 /* Set the alert background on the signin and signup pages. */
